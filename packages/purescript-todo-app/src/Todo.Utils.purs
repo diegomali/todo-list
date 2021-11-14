@@ -1,7 +1,7 @@
-module Todo.Utils where (
+module Todo.Utils (
   classy
-)
-import Prelude
+) where 
+
 import React.Basic.Hooks (JSX)
 
 classy
