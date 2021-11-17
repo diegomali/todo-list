@@ -22,5 +22,5 @@ main = do
   case app of 
     Nothing -> throw "Element with id app not found"
     Just a -> do
-      appComponent <- mkTodoListComponent
-      R.render (appComponent {}) a
+      appComponent <- mkTodoListComponent 
+      R.render (appComponent { tasks: [{ description: "Teste listagem", id: 1, completed: false }] }) a
