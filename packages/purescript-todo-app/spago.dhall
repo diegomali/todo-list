@@ -1,6 +1,8 @@
 { name = "purescript-todo-app"
 , dependencies =
   [ "console"
+  , "arrays"
+  , "foldable-traversable"
   , "debug"
   , "effect"
   , "exceptions"
